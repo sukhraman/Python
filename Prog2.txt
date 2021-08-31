@@ -1,0 +1,18 @@
+userReply = input("do you like to ship parcel (type 'yes or not' )")
+#exercise 1 if condition
+if userReply == 'yes':
+  print("we can ship that package")
+  #exercise 2 else condition
+else:
+    print("you can come another time, Thank you!!")
+ if userReply == 'not' :
+     print("you can come another time, Thank you!!")
+# Exercise 3 else if condition
+userReply = input("what would you like to send (type (stamps, copy))")
+if userReply == "stamps":
+   print("how much you want")
+elif userReply == "copy":
+     copy= input("How many copies would you like? (Type a number)")
+     print("Here are {} copy.".format(copy))
+else:
+    print("Thank you, please come again.")

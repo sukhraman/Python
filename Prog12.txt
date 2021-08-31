@@ -1,0 +1,7 @@
+# Multiply the count by the weights
+molecularWeightInsulin = sum({x: (aaCountInsulin[x] * aaWeights[x]) for x in
+                              ['A', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'K', 'L', 'M', 'N', 'P', 'Q', 'R', 'S', 'T', 'V',
+                               'W', 'Y']}.values())
+
+print("The rough molecular weight of insulin: " + str(molecularWeightInsulin))
+

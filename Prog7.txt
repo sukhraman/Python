@@ -1,0 +1,3 @@
+# Printing to console using concatenated strings
+bInsulinPrint = "The sequence of chain b of human insulin: " + bInsulin
+print(bInsulinPrint)

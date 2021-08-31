@@ -1,0 +1,3 @@
+# Concatenating chain b to chain a to make the human insulin peptide
+insulin = bInsulin + aInsulin
+print("The sequence of human insulin: " + insulin)

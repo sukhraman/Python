@@ -1,0 +1,3 @@
+# Printing "the sequence of human insulin" to console using successive print() commands
+print("The sequence of human preproinsulin: ")
+print(preproInsulin)

@@ -1,0 +1,6 @@
+# Printing using concatenated strings inside the print function (one-liner)
+print("The sequence of chain a of human insulin: " + aInsulin)
+# Count the number of each amino acids
+aaCountInsulin = ({x: float(insulin.upper().count(x)) for x in
+                   ['A', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'K', 'L', 'M', 'N', 'P', 'Q', 'R', 'S', 'T', 'V', 'W',
+                    'Y']})
